@@ -1,0 +1,47 @@
+{
+  "name": "greeklish-file-replace",
+  "version": "1.0.0",
+  "description": "Search files for Greek characters and replace them with their greeklish equivalents.",
+  "keywords": [
+    "greek",
+    "greeklish",
+    "file",
+    "replace",
+    "search",
+    "character",
+    "glob",
+    "latin",
+    "english",
+    "language",
+    "translate"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/greeklish-file-replace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/greeklish-file-replace/issues"
+  },
+  "homepage": "https://github.com/kodie/greeklish-file-replace",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "rm -rf test && standard && ava && rm -rf test"
+  },
+  "dependencies": {
+    "diff": "^3.3.0",
+    "fs-extra": "^4.0.1",
+    "glob-promise": "^3.1.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "standard": "^10.0.3"
+  }
+}
