@@ -110,7 +110,7 @@ Example:
 ```javascript
 var results = greeklishReplace.sync(files, options, (file, changes) => {
   if (changes && !options.silent) {
-    console.log('Made ' + changes + ' in ' + file)
+    console.log('Made ' + changes + ' changes in ' + file)
   }
 })
 ```
